@@ -50,11 +50,7 @@ Bachelor's studies in Computer Science
 Second Year
 
 ## Connect With Me
-
-* **LinkedIn:** [Add your LinkedIn profile URL]
-* **GitHub:** [Add your GitHub profile URL]
-* **Portfolio:** [Add your live portfolio URL]
-* **Email:** [Add your professional email address]
+* **Email:** paulamabelebele9@gmail.com
 
 ---
 
