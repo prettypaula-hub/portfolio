@@ -1,6 +1,184 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body {
-	background : yellowgreen;
-	color: white;
+	background :pink;
+	color: black;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.6;
 	margin: 10px;
 	padding: 20px ;
+}
+#hero img{
+	width: 300px;
+	height:300px;
+}
+h1 {
+	font-size: 40px;
+	text-align: center;
+}
+nav {
+	display: flex;
+	justify-content: center;
+	background-color: rgb(186, 149, 153);
+	padding: 10px;
+	font-size: 1.5rem;
+}
+nav a {
+	color: black;
+	text-decoration: none;
+	margin: 0 15px;
+}
+nav a:hover {
+	color: white;
+}
+section{
+	padding: 80px 20px 60px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#hero {
+	background-color: lightpink;
+	text-align: center;
+}
+#hero p {
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+.btn:hover {
+	background-color: white;
+	color: black;
+}
+h2{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+h2::after {
+	content: '';
+	display: block;
+	width: 50px;
+	height: 3px;
+	background-color: black;
+	margin-top: 10px;
+}
+#about {
+	background-color: lightpink;
+}
+#about p {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.projects-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+.project-card {
+	background-color: white;
+	padding: 20px;
+	border-radius: 5px;
+	flex: 1 1 calc(33.333% - 40px);
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.project-card:hover {
+	box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.project-card img {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+.project-card h3 {
+	margin-bottom: 10px;
+}
+.project-card p {
+	font-size: 16px;
+	color:black;
+}
+.project-link {
+	display: inline-block;
+	margin-top: 10px;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+.project-link:hover {
+	color: white;
+}
+#contact {
+	background-color: lightpink;
+}
+#contact-form {
+ max-width: 400px;
+}
+#contact-form label {
+ display: block;
+ margin-bottom: 5px;
+ font-weight: bold;
+}
+#contact-form input:focus, #contact-form textarea:focus {
+ outline: none;
+ border-color: black;
+}
+#contact-form textarea {
+ width: 100%;
+ padding: 10px;
+ margin-bottom: 15px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+}
+#contact-form button {
+ display: inline-block;
+ padding: 10px 20px;
+ background-color: black;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+#contact-form button:hover {
+ background-color: white;
+ color: black;
+}
+#footer{
+	padding: 20px;
+	background-color: lightpink;
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@media (max-width: 768px) {
+	h1{
+		font-size: 30px;
+	}
+	h2{
+		font-size: 24px;
+	}
+	nav a {
+		margin: 10px 0;
+	}
+	.projects-grid {
+		display:block;
+	}
+	section{
+	padding: 40px 10px;
+	}
 }
