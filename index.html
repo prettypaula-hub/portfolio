@@ -7,26 +7,190 @@
 </head>
 <body>
 	<nav>
-		<a href ="#about">about</a>
 		<a href ="#projects">projects</a>
-		<a href ="#contact"> contact</a>
+		<a href ="#certifications">certifications</a>
+		<a href ="#contacts"> contact</a>
+
 	</nav>
 	<section id = "hero">
-		<hi> hi, My name is Paula </hi>
-		<p> I'm web developer based in Pretoria </p>
-		<a href="#about" class="btn">Learn More</a>
+		<img src="paula.jpg" alt="Paula's photo">
+		<h1> Hi, My name is Paula </h1>
+		<p> I'm a second year Computer science student at the university of the Witswatersrand and  based in Pretoria.
+			 Aspiring Software engineer/AI engineer and later branch in data science </p>
 	</section>
-	<section id="projects">
-		<h2>Projects</h2>
-		<div class ="projects-grid">
-		<!-- projects card here go here -->
+<section id="projects" class="projects-section">
+    <p class="section-label">MY WORK</p>
+    <h2>Projects</h2>
+    <p class="projects-intro">
+        Here are some of the projects I've built and
+        contributed to using software development and data analysis.
+    </p>
+
+    <div class="projects-grid">
+
+        <!-- Future You -->
+        <div class="project-card">
+            <img src="projects/future-you.png"
+                 alt="Future You financial forecasting application"
+                 class="project-image">
+
+            <div class="project-content">
+                <h3>Future You – Financial Forecasting</h3>
+
+                <p>
+                    Developed a financial forecasting application integrating Investec APIs
+                     to analyse account transactions and project future balances.
+                      Built Flask backend endpoints for account data, financial forecasts and what-if scenarios.
+                </p>
+
+                <div class="tech-stack">
+                    <span><strong>Python</strong></span>
+                    <span><strong>Flask</strong></span>
+                    <span><strong>Investec APIs</strong></span>
+                    <span><strong>REST APIs</strong></span>
+                </div>
+
+                <a href="https://github.com/prettypaula-hub/future-you-runway"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-btn">
+                    View on GitHub ↗
+                </a>
+            </div>
+        </div>
+
+        <!-- VetReach -->
+        <div class="project-card">
+            <img src="projects/vetreach.png"
+                 alt="VetReach veterinary resource platform"
+                 class="project-image">
+
+            <div class="project-content">
+                <h3>VetReach – Veterinary Resource Platform</h3>
+
+                <p>
+                    Contributed to a platform supporting livestock
+                    healthcare in Limpopo. Focused on backend logic,
+                    PostgreSQL database integration and connecting
+                    the recommendation system to the frontend.
+                </p>
+
+                <div class="tech-stack">
+                    <span><strong>Java</strong></span>
+                    <span><strong>Spring Boot</strong></span>
+                    <span><strong>PostgreSQL</strong></span>
+                    <span><strong>React</strong></span>
+                </div>
+
+                <a href="https://github.com/belovedhlengiwe4-dot/veterinary-reach"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-btn">
+                    View on GitHub ↗
+                </a>
+            </div>
+        </div>
+
+        <!-- Portfolio -->
+        <div class="project-card">
+            <img src="projects/portfolio.png"
+                 alt="Personal portfolio website"
+                 class="project-image">
+
+            <div class="project-content">
+                <h3>Personal Portfolio Website</h3>
+
+                <p>
+                    Designed and developed a personal portfolio
+                    website to showcase my projects, technical skills,
+                    certifications and professional journey.
+                    Acquired  skils from Wits Developer Society Tuesday workshops.
+                </p>
+
+                <div class="tech-stack">
+                    <span><strong>HTML</strong></span>
+                    <span><strong>CSS</strong></span>
+                    <span><strong>JavaScript</strong></span>
+                </div>
+
+                <a href="https://github.com/prettypaula-hub/personal-portfolio"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-btn">
+                    View on GitHub ↗
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+	<section id="certifications">
+		<h2>Certifications</h2>
+		<div class="certification-card">
+            <h3>AWS AI & Machine Learning Scholarship</h3>
+            <p><strong>Issued:</strong> June 2026</p>
+            <p><strong>Skills:</strong> Machine Learning, AI, Cloud Computing</p>
+
+            <a href="certificates/AI Practitioner.pdf"
+               target="_blank"
+               class="btn">
+               View Certificate
+            </a>
+        </div>
+		<div class="certifications-card">
+			<h3>Women Techsters Launchpad Program</h3>
+			<p><strong>Issued:</strong> April 2026</p>
+			<p><strong>Skills:</strong> AI literacy and Prompting and AI-powered workflows</p>
+			<a href= "certificates/Maboko_Paula_Mabelebele_WT_Launchpad_2026_certificate.png"
+				target="_blank"
+				class="btn">
+				View Certificate 
+			</a>
 		</div>
+        <div class="certifications-card">
+			<h3>Creative Chaos Hackathon 2026</h3>
+			<p><strong>Duration:</strong> from 13th to 19th September 2026</p>
+			<p><strong>Description:</strong> I participated in a hackathon where I collaborated with a team to develop VetReach, 
+                a platform aimed at improving access to veterinary services for livestock farmers in Limpopo.
+                I contributed to the backend logic, PostgreSQL database integration, and connecting the recommendation system to the frontend. This experience strengthened my problem-solving, teamwork, and software development skills while allowing me to apply my knowledge to a real-world challenge.
+           </p>
+			<a href= "certificates/Paula_Mabelebele_certificate.pdf"
+				target="_blank"
+				class="btn">
+				View Certificate 
+			</a>
+		</div>
+		<div class="certification-card">
+    <h3>Deloitte Data Analytics Job Simulation</h3>
+    <p><strong>Platform:</strong> Forage</p>
+    <p><strong>Date:</strong> June 2026</p>
+    <p>
+        Completed a virtual job simulation focused on data analytics and
+        forensic technology, gaining practical experience through real-world
+        business tasks.
+    </p>
+    <p><strong>Skills:</strong> Data Analysis, Forensic Technology, Problem Solving</p>
+    <a href="certificates/deloitte-data-analytics-job-simulation.pdf"
+       target="_blank"
+       class="btn">
+       View Certificate
+    </a>
+</div>
 	</section>
-	<section id = "contacts">
+
+	<section id="contacts">
 		<h2>Contacts</h2>
-		<form id="contact-form">
+		<form id="contact-form"  action="https://formspree.io/f/xeaevkop"
+         method="POST">
 			<label for = "first Name">First Name</label>
 			<input type="text" id="first Name" name="first Name" required>
+			<label for = "last Name">Last Name</label>
+			<input type="text" id="last Name" name="last Name" required>
+			<label for = "email">Email</label>
+			<input type="email" id="email" name="email" required>
+			<label for = "message">Message</label>
+			<textarea id="message" name="message" required></textarea>
+			<button type="submit">Send</button>
 		</form>
 	</section>
 	<script src="script.js"></script>
